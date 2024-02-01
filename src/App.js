@@ -19,7 +19,7 @@ function App() {
           >
             Github
           </a>
-          and hosted on Netlify
+          {""} and hosted on Netlify
         </footer>
       </div>
     </div>
