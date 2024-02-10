@@ -1,4 +1,11 @@
-.App .container {
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("Bookbackground.jpg");
+  background-size: cover;
+}
+
+.App h1 {
+  color: white;
   text-align: center;
 }
 .App footer {
