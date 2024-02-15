@@ -1,4 +1,22 @@
-.Dictonary section {
-  background: white;
-  padding: 16px;
+.Dictionary section {
+  background-image: linear-gradient(
+    rgba(249, 245, 245, 0.3),
+    rgba(249, 246, 246, 0.937)
+  );
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px rgb(0 0 0 /20%);
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border-radius: 5px;
+  color: #333;
+  border-color: 1px solid #ddd;
+}
+.Dictionary .Hint {
+  font-size: 13px;
+  opacity: 0.8;
 }

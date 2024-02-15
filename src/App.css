@@ -1,14 +1,27 @@
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("Bookbackground.jpg");
+  background-image: linear-gradient(
+      rgba(170, 163, 163, 0.3),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("books.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .App h1 {
-  color: white;
+  color: rgba(rgb(50, 2, 2), rgb(35, 53, 35), rgb(4, 4, 114), alpha);
   text-align: center;
 }
 .App footer {
   text-align: center;
   margin: 30px 0;
+  color: rgba(rgb(50, 2, 2), rgb(35, 53, 35), rgb(4, 4, 114), alpha);
+  background-image: linear-gradient(
+    rgba(249, 245, 245, 0.3),
+    rgba(249, 246, 246, 0.937)
+  );
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px rgb(0 0 0 /10%);
 }
