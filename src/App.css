@@ -7,10 +7,19 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.App {
+  padding: 60px 0 100px;
+  max-width: 960px;
+  margin: 0 auto;
+}
 
 .App h1 {
-  color: rgba(rgb(50, 2, 2), rgb(35, 53, 35), rgb(4, 4, 114), alpha);
+  color: rgba(58, 56, 56, 1);
   text-align: center;
+  font-family: "Urbanist", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: -50px;
 }
 .App footer {
   text-align: center;

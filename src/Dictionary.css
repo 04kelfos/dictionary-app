@@ -1,6 +1,6 @@
 .Dictionary section {
   background-image: linear-gradient(
-    rgba(249, 245, 245, 0.3),
+    rgba(249, 245, 245, 0.8),
     rgba(249, 246, 246, 0.937)
   );
   padding: 30px;
@@ -8,14 +8,32 @@
   border-radius: 10px;
   box-shadow: 3px 5px 5px rgb(0 0 0 /20%);
 }
+.Question {
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
 
 .Dictionary input {
-  width: 100%;
+  width: 85%;
   padding: 6px 4px;
   border-radius: 5px;
   color: #333;
   border-color: 1px solid #ddd;
 }
+.btn {
+  position: relative;
+  bottom: 1px;
+  margin-left: 6px;
+  padding: 1 2 1 2;
+  border: 1px solid #bf9188;
+  background-color: #bf9188;
+  color: #333;
+}
+.btn:hover {
+  background-color: #838056;
+  border: 1px solid #838056;
+}
+
 .Dictionary .Hint {
   font-size: 13px;
   opacity: 0.8;
